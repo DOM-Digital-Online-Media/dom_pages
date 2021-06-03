@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.site_setting_entity.data_protection
+    - site_settings.site_setting_entity_type.pages
+  module:
+    - text
+id: site_setting_entity.pages.data_protection
+field_name: data_protection
+entity_type: site_setting_entity
+bundle: pages
+label: 'Data protection'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
